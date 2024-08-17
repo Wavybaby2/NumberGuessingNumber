@@ -1,0 +1,64 @@
+body{
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    color: blue; 
+}
+
+.head:hover{
+    opacity: 0.7;
+    transition: 0.3s, opacity;
+}
+
+.head::first-letter{
+    color: brown;
+    font-size: 2em
+}
+span{
+    color: chocolate;
+}
+
+.label{
+margin-top: 70px;
+padding-top: 30px;
+}
+
+.place{
+    margin-top: 90px;
+    border-radius: 7px;
+    height: 20px;
+    width: 175px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button{
+    font-size: 20px;
+    background-color: coral;
+    width: 90px;
+    height: 30px;
+    border: 2px solid violet;
+    border-radius: 5px;
+    margin-top: 27px;
+}
+.check{
+    margin-top: 50px;
+    color: rgb(86, 13, 74);
+    border: 2px solid gray;
+    background-color: aliceblue;
+}
+
+.output{
+    color: rgb(6, 6, 6);
+    font-style: italic;
+}
+
+.track{
+    color: rgb(10, 82, 72);
+    font-style: italic;
+}
